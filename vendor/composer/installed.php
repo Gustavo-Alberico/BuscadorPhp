@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '25da972d9f3ea5b8f273d3f7d46929191314afe2',
         'name' => 'gustavo-alberico/buscador-cursos',
         'dev' => true,
     ),
     'versions' => array(
         'gustavo-alberico/buscador-cursos' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '25da972d9f3ea5b8f273d3f7d46929191314afe2',
             'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(
