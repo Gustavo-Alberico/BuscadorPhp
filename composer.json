@@ -1,0 +1,21 @@
+{
+    "name": "gustavo-alberico/buscador-cursos",
+    "description": "Projeto de buscador de cursos no site da Alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "GustavoAlberico\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Alberico",
+            "email": "gustavoalberico@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "symfony/dom-crawler": "^5.3",
+        "symfony/css-selector": "^5.3"
+    }
+}
