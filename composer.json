@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "GustavoAlberico\\BuscadorCursos\\": "src/"
+            "GustavoAlberico\\BuscadorDeCursos\\": "src/"
         }
     },
     "authors": [
@@ -17,5 +17,10 @@
         "guzzlehttp/guzzle": "^7.3",
         "symfony/dom-crawler": "^5.3",
         "symfony/css-selector": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "*",
+        "phan/phan": "^5.2"
     }
 }
